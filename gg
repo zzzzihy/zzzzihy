@@ -1,0 +1,11 @@
+pivot_thick = pd.pivot_table(df_raw, index = 'scale', columns = 'spec_country', values = 'pt_thick', aggfunc = 'mean')
+pivot_thick
+
+pivot_width = pd.pivot_table(df_raw, index = 'scale', columns = 'spec_country', values = 'pt_width', aggfunc = 'mean')
+pivot_width
+
+pivot_length = pd.pivot_table(df_raw, index = 'scale', columns = 'spec_country', values = 'pt_length', aggfunc = 'mean')
+pivot_length
+
+pivot_scale = pd.pivot_table(df_raw, index = 'scale', columns = 'spec_country', values = 'plate_no', aggfunc = 'count')
+pivot_scale
